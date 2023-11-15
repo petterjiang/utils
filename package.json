@@ -11,6 +11,10 @@
     "dist",
     "index.d.ts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petterjiang/utils.git"
+  },
   "main": "./dist/utils.min.umd.cjs",
   "module": "./dist/utils.min.js",
   "types": "./index.d.ts",
