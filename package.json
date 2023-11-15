@@ -1,0 +1,29 @@
+{
+  "name": "@jiangweijia/utils.js",
+  "version": "1.0.2",
+  "description": "utils",
+  "keywords": [
+    "utils"
+  ],
+  "author": "蒋维佳",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/utils.min.umd.cjs",
+  "module": "./dist/utils.min.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/utils.min.js",
+    "require": "./dist/utils.min.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.4.11"
+  }
+}
